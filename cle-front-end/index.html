@@ -33,7 +33,6 @@
         <div class="data-field">
             <label for="Uw Naam"></label>
             <input id="naam" type="text" placeholder="Uw Naam"  name="naam" value="<?= (isset($name) ? $name : ''); ?>" />
-            <span><?= (isset($errors['Uw Naam']) ? $errors['Uw Naam'] : '') ?></span>
             <label for="Uw Telefoonnummer"></label>
             <input id="telefoonnummer" type="text" placeholder="Uw Telefoonnummer" name="telefoonnummer" value="<?= (isset($telnr) ? $telnr : ''); ?>" required/>
             <label for="Uw Email"></label>
